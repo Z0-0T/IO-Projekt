@@ -1,2 +1,2 @@
 # IO-Projekt
-ProjektIO
+Inżynieria Oprogramowania
