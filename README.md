@@ -19,6 +19,8 @@ I ustawić w konstruktorze nazwę użytkownika oraz hasło do serwera baz danych
 
 
 $this->user = "root"; <- Zamienić root na nazwę użytkownika bazy danych.
+
+
 $this->pass = ""; <- Zamienić puste pole na hasło użytkownika bazy danych.
 
 
