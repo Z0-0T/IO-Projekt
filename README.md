@@ -13,7 +13,11 @@ W naszym przypadku korzystaliśmy z pakietu XAMPP na platformie Windows. Posiada
 Następnie trzeba wpisać dane logowania do lokalnej bazy danych, które znajdują się w pliku: app/utils/databaseConnection.php.
 
 
-I ustawić w konstruktorze nazwę użytkownika oraz hasło jak na lokalnej maszynie gdzie zaimportowano bazę danych.
+I ustawić w konstruktorze nazwę użytkownika oraz hasło do serwera baz danych do którego wgrano: baza.sql.
+
+
+$this->user = "root"; <- Zamienić root na nazwę użytkownika bazy danych.
+$this->pass = ""; <- Zamienić puste pole na hasło użytkownika bazy danych.
 
 
 Dodatkowo do poprawnego działania generowania QR-Kodów wymagana jest obsługa biblioteki gd. W XAMPPie wystarczy kliknąć przy apache na config, następnie wybrać (PHP)php.ini, wyszukać linijkę:
@@ -22,7 +26,7 @@ Dodatkowo do poprawnego działania generowania QR-Kodów wymagana jest obsługa 
 ;extension=gd
 
 
-i usunąć średnik w ten sposób.
+I usunąć średnik w ten sposób.
 
 
 extension=gd
