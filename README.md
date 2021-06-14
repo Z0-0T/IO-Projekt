@@ -52,3 +52,6 @@ lub
 
 
 127.0.0.1/app
+
+# Dodatkowo
+W pliku users.txt znajdują się dane z istniejącymi w bazie danych użytkownikami do testowania aplikacji.
