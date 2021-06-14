@@ -5,11 +5,11 @@ Inżynieria Oprogramowania
 Szymon Kurek, Jakub Bednarz
 
 # Instalacja
-Wykorzystano bazę danych MariaDB, oraz serwer Apache2 z zintegrowanym interpreterem skryptów PHP.
-Należy pobrać katalog /app i nie zmieniając jego nazwy przenieść cały folder do katalogu głównego serwera Apache2 /www-root/app
+Wykorzystano bazę danych MariaDB, oraz serwer Apache2 ze zintegrowanym interpreterem skryptów PHP.
+Należy pobrać katalog /app i nie zmieniając jego nazwy przenieść cały folder do katalogu głównego serwera Apache2 np. /web-root/app
 
 
-W naszym przypadku korzystaliśmy z pakietu XAMPP na platformie Windows. Posiada on w sobie wbudowany serwer Apache2 oraz serwer MySql(MariaDB). Na początku należy zaimportować plik bazy danych: baza.sql używając jakiegokolwiek klienta SQL np. mysql workbench, heidi sql, phpmyadmin lub poprzez konsolę. Następnie po wgraniu bazy danych należy przenieść folder app do katalogu głównego serwera apache w przypadku XAMPP jest to po kliknięciu w przycisk Explorer folder htdocs.
+W naszym przypadku korzystaliśmy z pakietu XAMPP na platformie Windows. Posiada on w sobie wbudowany serwer Apache2 oraz serwer SQL MariaDB. Na początku należy zaimportować plik bazy danych: baza.sql używając jakiegokolwiek klienta SQL np. mysql workbench, heidi sql, phpmyadmin lub poprzez konsolę. Następnie po wgraniu bazy danych należy przenieść folder app do katalogu głównego serwera apache w przypadku XAMPP jest to po kliknięciu w przycisk Explorer folder htdocs.
 
 
 Następnie trzeba wpisać dane logowania do lokalnej bazy danych, które znajdują się w pliku: app/utils/databaseConnection.php.
